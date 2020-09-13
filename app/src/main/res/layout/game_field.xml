@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorMainBackground">
+    <LinearLayout
+        android:id="@+id/gameMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        >
+        <Button
+            android:id="@+id/btnBackRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_stroke_black95_press_white"
+            android:foregroundGravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/back"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnPauseResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_stroke_black95_press_white"
+            android:foregroundGravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/pause"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_stroke_black95_press_white"
+            android:foregroundGravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/restart"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gameMenu"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>

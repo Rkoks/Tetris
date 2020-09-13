@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "622307145038",
+    "firebase_url": "https://tetrisproject-6774c.firebaseio.com",
+    "project_id": "tetrisproject-6774c",
+    "storage_bucket": "tetrisproject-6774c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622307145038:android:62b0d1c8229a543ee49a1f",
+        "android_client_info": {
+          "package_name": "com.rkoks.tetris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622307145038-gboht02p6dtio4ukv3o5d84e95e20orv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rkoks.tetris",
+            "certificate_hash": "4c4ff5e1fecd676ad2db1fb02c8d89d80cdce824"
+          }
+        },
+        {
+          "client_id": "622307145038-4ju6fprt1v7vp2bq59skap9trfdfjqh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhSrEXweFbIoXQBH7io_v0nsdtfmxiOA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622307145038-4ju6fprt1v7vp2bq59skap9trfdfjqh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
